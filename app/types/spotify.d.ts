@@ -15,5 +15,18 @@ export type CurrentlyPlayingTrack = {
   is_playing: boolean;
   item: {
     name: string;
+    album: {
+      name: string;
+      images: [
+        {
+          url: string;
+        },
+      ];
+    };
+    artists: [
+      {
+        name: string;
+      },
+    ];
   };
 };

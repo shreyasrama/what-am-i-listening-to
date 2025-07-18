@@ -4,7 +4,7 @@ import ThemeToggle from "~/components/theme-toggle.vue";
 
 <template>
   <div class="container mx-auto text-center">
-    <h1 class="text-5xl">
+    <h1 class="mt-5 font-heading text-6xl font-extrabold tracking-normal">
       What am I listening to?
     </h1>
 
