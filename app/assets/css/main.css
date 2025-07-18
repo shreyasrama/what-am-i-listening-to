@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&display=swap");
 @import "tailwindcss";
+
 @plugin "daisyui" {
   themes:
-    light --default,
-    dark --prefersdark;
+    retro --default,
+    forest --prefersdark;
+}
+
+@theme {
+  --font-heading: "Asta Sans";
 }
