@@ -30,3 +30,26 @@ export type CurrentlyPlayingTrack = {
     ];
   };
 };
+
+export type RecentlyPlayedTracks = {
+  items: [
+    {
+      track: {
+        name: string;
+        album: {
+          name: string;
+          images: [
+            {
+              url: string;
+            },
+          ];
+        };
+        artists: [
+          {
+            name: string;
+          },
+        ];
+      };
+    },
+  ];
+};
