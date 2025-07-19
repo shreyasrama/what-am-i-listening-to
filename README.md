@@ -1,33 +1,25 @@
 # What am I listening to?
 
-A full stack application built with Nuxt that shows my recent listening history from Last.fm.
+An application built with Nuxt that shows my current and recently played tracks on Spotify.
+
+See it live: [What am I listening to?](https://what-am-i-listening-to.rama.nz)
 
 ## Setup
 
-Make sure to install dependencies:
-
 ```bash
+# Install dependencies
 pnpm install
-```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
+# Run the dev server
 pnpm dev
-```
 
-## Production
-
-Build the application for production:
-
-```bash
+# Build the production output
 pnpm build
-```
 
-Locally preview production build:
-
-```bash
+# Preview production build locally
 pnpm preview
 ```
+
+## Deployment
+
+Preview and production deployments are handled by [Vercel](https://vercel.app).

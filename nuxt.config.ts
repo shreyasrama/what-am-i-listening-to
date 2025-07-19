@@ -9,6 +9,15 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   modules: ["@nuxt/eslint", "@nuxt/icon", "@nuxtjs/color-mode"],
 
+  app: {
+    head: {
+      title: "What am I listening to?",
+      htmlAttrs: {
+        lang: "en",
+      },
+    },
+  },
+
   eslint: {
     config: {
       standalone: false,
